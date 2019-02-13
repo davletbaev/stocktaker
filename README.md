@@ -1,3 +1,7 @@
+# Stocktaker
+Приложение для проведения инвентаризации.
+Сделано на React.js. Бэкенд - Firebase c базой данных Firestore.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
