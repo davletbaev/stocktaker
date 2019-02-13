@@ -1,0 +1,25 @@
+header {
+  background: var(--dark-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1rem;
+  color: var(--text-light);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+@media(max-width: 760px) {
+  header {
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    flex: 1 0 100%;
+  }
+}

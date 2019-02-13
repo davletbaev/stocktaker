@@ -1,0 +1,17 @@
+.blanks-adder {
+  margin-top: 20px;
+}
+
+.blanks-table td {
+  vertical-align: middle;
+  height: 4em;
+  padding: 0.5em 1em;
+}
+
+.blanks-table td:first-child {
+  text-transform: capitalize;
+}
+
+.blanks-table td + td {
+  border-left: 1px solid var(--divider);
+}

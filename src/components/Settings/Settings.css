@@ -1,0 +1,7 @@
+.user-email__label {
+  font-weight: bold;
+}
+
+.user-email__value {
+  color: var(--text-secondary);
+}
